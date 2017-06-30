@@ -12,8 +12,8 @@ export class CivilEngineeringComponent implements OnInit {
   constructor() { this.place = "";
   }
 
-  eingabe(Adresse) {
-    this.place = Adresse;
+  Input(Adress) {
+    this.place = Adress; 
   }
 
   ngOnInit() {
